@@ -15,8 +15,6 @@ def to_json(s):
             s1.append(a)
     return s1
 
-
-# Функция нахождения индекса элемента массива
 def exp_ind(arr, experts):
     ind = -1
     for i in range(len(experts)):
@@ -25,7 +23,6 @@ def exp_ind(arr, experts):
     return ind
 
 
-# Создаем матрицу сравнения оценок для одного объекта
 def create_matrix(experts, index):
     exp = np.zeros((len(experts[index]), len(experts[index])))
     for i in range(len(experts[index])):
