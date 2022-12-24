@@ -1,8 +1,6 @@
 import numpy as np
 import json
 
-
-# Читаем json
 def to_json(s):
     js = json.loads(s)
     s1 = []
